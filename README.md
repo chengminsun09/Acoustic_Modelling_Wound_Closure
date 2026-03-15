@@ -2,7 +2,7 @@
 
 This repository contains the code and data used to reproduce the simulations and analyses presented in the manuscript:
 
-**“In Silico Optimization of Time-Dependent Motility and Proliferation Control for Wound Closure: A Hybrid Fisher–KPP and Force-Based Agent Model.”**
+**In Silico Optimization of Time-Dependent Motility and Proliferation Control for Wound Closure: A Hybrid Fisher–KPP and Force-Based Agent Model**
 
 The repository provides:
 
@@ -18,13 +18,13 @@ The code is intended to ensure **computational reproducibility of the modeling r
 
 # Repository Structure
 
-
+```
 .
 ├── main.ipynb
 ├── johnston_data.ipynb
 ├── johnston2015_rwd_approx.csv
 └── README.md
-
+```
 
 ---
 
@@ -66,7 +66,7 @@ Digitized wound closure data extracted from the published figure in:
 
 Johnston ST et al. (2015)  
 *Estimating cell diffusivity and cell proliferation rate by interpreting IncuCyte ZOOM™ assay data using the Fisher–Kolmogorov model.*  
-**BMC Systems Biology**
+BMC Systems Biology
 
 Because the original article presents the wound closure curve graphically, the values were extracted by **digitizing the published figure and converting it into tabular form**.
 
@@ -80,19 +80,19 @@ The dataset represents **relative wound density (RWD) vs time** for a representa
 
 The notebooks were tested using **Python 3.10** with the following packages:
 
-
+```
 numpy
 pandas
 matplotlib
 scipy
 seaborn
-
+```
 
 Install dependencies with:
 
-
+```
 pip install numpy pandas matplotlib scipy seaborn
-
+```
 
 ---
 
@@ -102,9 +102,9 @@ pip install numpy pandas matplotlib scipy seaborn
 
 Run:
 
-
+```
 johnston_data.ipynb
-
+```
 
 This notebook:
 
@@ -119,9 +119,9 @@ This notebook:
 
 Run:
 
-
+```
 main.ipynb
-
+```
 
 This notebook performs:
 
@@ -150,10 +150,8 @@ All simulations are stochastic; results shown in the manuscript are based on **e
 
 If you use this code, please cite the associated manuscript:
 
-
-In Silico Optimization of Time-Dependent Motility and Proliferation Control
+In Silico Optimization of Time-Dependent Motility and Proliferation Control  
 for Wound Closure: A Hybrid Fisher–KPP and Force-Based Agent Model
-
 
 ---
 
@@ -168,4 +166,4 @@ This code is provided for academic and research purposes.
 Literature data used in the validation step originate from:
 
 Johnston ST et al., 2015  
-*BMC Systems Biology*
+BMC Systems Biology
